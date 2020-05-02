@@ -1,0 +1,14 @@
+<web-app>
+
+<servlet>
+    <servlet-name>Servlet2</servlet-name>
+    <servlet-class>DBServ</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Servlet2</servlet-name>
+    <url-pattern>/dbhello</url-pattern>
+</servlet-mapping>
+
+</web-app>
+

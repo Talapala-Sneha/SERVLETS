@@ -1,0 +1,45 @@
+<web-app>
+
+<servlet>
+    <servlet-name>create</servlet-name>
+    <servlet-class>C</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>create</servlet-name>
+    <url-pattern>/crud1</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>read</servlet-name>
+    <servlet-class>R</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>read</servlet-name>
+    <url-pattern>/crud2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>update</servlet-name>
+    <servlet-class>U</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/crud3</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>D</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/crud4</url-pattern>
+</servlet-mapping>
+
+</web-app>
+

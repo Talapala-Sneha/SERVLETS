@@ -1,0 +1,54 @@
+<web-app>
+
+<servlet>
+    <servlet-name>create</servlet-name>
+    <servlet-class>createservlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>create</servlet-name>
+    <url-pattern>/create</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>read</servlet-name>
+    <servlet-class>readservlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>read</servlet-name>
+    <url-pattern>/read</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>update</servlet-name>
+    <servlet-class>updateservlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>deleteservlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>mark</servlet-name>
+    <servlet-class>markgenerateservlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>mark</servlet-name>
+    <url-pattern>/marklist</url-pattern>
+</servlet-mapping>
+</web-app>
+
